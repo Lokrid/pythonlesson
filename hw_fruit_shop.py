@@ -46,4 +46,3 @@ put_success(
     f"Total cost: \napple_cost\t{apple_cost} \nbanana_cost\t{banana_cost} \ntotal_cost\t\t{total_cost}"
 )
 pass
-
