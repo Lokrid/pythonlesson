@@ -46,21 +46,11 @@ class Purchase:
         return sum(item.price * cnt for item, cnt in self.products.items())
 
 
-lemon = Item(
-    "lemon",
-    5,
-    "yellow",
-    "small",
-)
-apple = Item(
-    "apple",
-    2,
-    "red",
-    "middle",
-)
+lemon = Item("lemon", 5, "yellow", "small")
+apple = Item("apple", 2, "red", "middle")
 print(lemon)  # lemon, price: 5
 
-buyer = User("Ivan", "Ivanov", "02628162")
+buyer = User("Vlad", "Faraseienko", "02628162")
 print(buyer)  # Ivan Ivanov
 
 cart = Purchase(buyer)
